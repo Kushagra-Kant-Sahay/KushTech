@@ -17,7 +17,7 @@ steps {
 // Archive the built artifacts
 // archive (includes: 'pkg/*.gem')
 
-publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'coverage', reportFiles: 'index.html', reportName: 'Kush Technologies', reportTitles: 'Coverage Report'])
+// publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'coverage', reportFiles: 'index.html', reportName: 'Kush Technologies', reportTitles: 'Coverage Report'])
 }
 }
 stage('Test') {
