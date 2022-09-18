@@ -7,8 +7,7 @@ pipeline {
         steps {
 
             echo "build"
-            archiveArtifacts allowEmptyArchive: true, artifacts: '', followSymlinks: false
-                }
+              }
             }
 stage('Test') {
             steps {
