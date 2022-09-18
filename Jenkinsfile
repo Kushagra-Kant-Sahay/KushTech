@@ -10,7 +10,7 @@ steps {
 
 // install required bundles
 // sh 'bundle install'
-echo "Webaapp Build"
+
 // build and run tests with coverage
 // sh 'bundle exec rake build spec'
 
