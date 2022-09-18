@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Build') {
 
-step {
+steps {
 // Checkout
 git branch: 'main' ,url: 'https://github.com/Kushagra-Kant-Sahay/KushTechonlogies.git';
 
