@@ -16,7 +16,6 @@ git branch: 'main' ,url: 'https://github.com/Kushagra-Kant-Sahay/KushTechonlogie
 
 // Archive the built artifacts
 // archive (includes: 'pkg/*.gem')
-    echo "Webapp Build"
 
 publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'coverage', reportFiles: 'index.html', reportName: 'Kush Technologies', reportTitles: 'Coverage Report'])
 }
