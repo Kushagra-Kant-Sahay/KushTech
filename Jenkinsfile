@@ -6,11 +6,11 @@ pipeline {
 
 steps {
 // Checkout
-git branch: 'main' ,url: 'https://github.com/Kushagra-Kant-Sahay/KushTechonlogies.git';
+// git branch: 'main' ,url: 'https://github.com/Kushagra-Kant-Sahay/KushTechonlogies.git';
 
 // install required bundles
 // sh 'bundle install'
-
+echo "Webaapp Build"
 // build and run tests with coverage
 // sh 'bundle exec rake build spec'
 
